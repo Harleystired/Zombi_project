@@ -63,4 +63,5 @@ public class GameManger : MonoBehaviour
         time += Time.deltaTime;
         timerText.text = "Time: " + time.ToString("F1") + "s";
     }
+    
 }
